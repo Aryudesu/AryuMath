@@ -69,7 +69,7 @@ def bernoulli_q(num):
     return res
 
 
-def continued_fraction(num):
+def sqrt_continued_fraction(num):
     """Get Continued fraction expansion of sqrt(num)"""
     res = []
     rootnum = int(math.sqrt(num))
